@@ -1,0 +1,123 @@
+%Lexuesi(ID ,Emri, Mbiemri, Emri i prindit, Gjinia, Data Lindjes, Adresa, Telefoni, Emaili, Profesioni).
+lexuesi('100100100', 'Barbara', 'MacCaffery','Ines', 'Femer', '03/28/1986', '11 Sage Terrace', '781-932-9754', 'barbara11@gmail.com', 'Student').
+lexuesi('100100101','Ines', 'Brushfield','Freddi','Mashkull','13/04/1986','14187 Commmercial Trail','804-427-9456','ines13@gmail.com','Actor').
+lexuesi('100100102','Freddi','Boagey','Ambur','Mashkull','07/02/1985','251 Springs Junction','719-724-7869','freddi1985@gmail.com','Teacher').
+lexuesi('100100103','Amber','Roseburgh','Elka','Femer','14/04/1991','5 Spohn Circle','254-657-923','amburrose@gmail.com','Cashier').
+lexuesi('100100104','Elka','Twiddell','Ilene','Femer','04/09/1991','7 Manely Drive','321-480-8498','elka1991@gmail.com','Student).
+lexuesi('100100105','Ilene','Dowson','Thacher','Femer','17/07/1992','50 Lillian Crossing','615-641-4759	ilenedowson@gmail.com','Student).
+lexuesi('100100106','Thacher','Naseby','Romola','Mashkull','30/08/1964','538 Mosinee Center','941-527-3977','thacher1@gmail.com','Builder).
+lexuesi('100100107','Romola','Rumgay','Levy','Femer','23/05/1992','3520 Ohio Trail','559-181-3744','romolarumgay@gmail.com','Student).
+lexuesi('100100108','Levy','Mynett','Bob','Mashkull','13/10/1969','68 lawn Avenue','404-246-3370','levy69@gmail.com','Carpet Cleaner).
+lexuesi('100100109','John','Oliver','Arthur','Mashkull','04/05/1999','29 Valley View','564-832-1024','johnarthur@gmail.com','Policeman).
+lexuesi('100100110','Ann','Poppy','Ethel','Femer','03/12/2000','591 Gartner RD	552-487-3271','poppyann@gmail.com','Dancer).
+lexuesi('100100111','Emily','Mia','Ernest','Femer','04/06/1989','76 Somerset Drive','624-843-2457','emily89@gmail.com','Writer').
+
+%Detajet e Lexuesit(Viti Regjistrimit, Data regjistrimit, Çmimi per regjistrim, Punetori, Aktiviteti, Skadenca).
+detajet e lexuesit(100100100','2020','05/07','5€','200156110','Aktiv','05/07/2021').
+detajet e lexuesit(100100101','2003','3/10','Liruar nga pagesa','200156130','Ka Skaduar','03/10/2004').
+detajet e lexuesit(100100103','2020','26/07','10€','200156110','Aktiv','26/07/2021').
+detajet e lexuesit(100100104','2021','06/11','5€','200156120','Aktiv','06/11/2022').
+detajet e lexuesit(100100105','2016','03/08','10€','200156160','Ka Skaduar','03/08/2017').
+detajet e lexuesit(100100106','2020','21/10','Liruar nga pagesa','200156140','Aktiv','21/10/2021').
+detajet e lexuesit(100100107','2021','19/09','5€','200156110','Aktiv','19/09/2021').
+detajet e lexuesit(100100108','2012','22/03','5€','200156120','Ka Skaduar','22/03/2013').
+detajet e lexuesit(100100109','2015','04/04','10€','200156150','Ka Skaduar','04/04/2016').
+detajet e lexuesit(100100110','2020','11/07','5€','200156130','Aktiv','11/07/2021').
+detajet e lexuesit(100100111','2021','12/06','10€','200156110','Aktiv','12/06/2022').
+
+%Libri(ID, Titulli,Autori, Zhanri, Numri i Kopjeve, Data e Pranimit, Punetori).
+libri(100','In Search of Lost Time','Marcel Proust','Fiction','20','2020-04-12','Harkin').
+libri(101','Ulysses','James Joyce','Fiction','15','2018-06-20','Ira' ).
+libri(102','Don Quixote','Miguel de Cervantes','Fiction','10','2002-01-05','Erica').
+libri(103','Life of Pi','Yann Martel','Adventure','5','2015-02-06','Vinnie').
+libri(104','The Three Musketeers','Alexandre Dumas','Action','17','2014-06-05','Vinnie').
+libri(105','Little Women','Louisa May alcott','Classics','16','2017-06-12','Harkin').
+libri(106','Beloved','Toni Morrison','Novel','11','2021-04-21','Helen').
+libri(107','The Walking Dead','Robert Kirkman','Comic','6','2019-05-14','Harkin').
+libri(108','The Adventures of Sherlock Holmes','Sir Arthur Conan Doyle','Mystery','22','2015-06-14','Vinnie').
+libri(109','100 Years of Solitude','Gabriel Garcia Marquez','Historical Fiction','14','2016-01-10','Helen').
+libri(110','Carrie','Stephen King','Horror','33','2017-02-23','Harkin').
+libri(111','Olive,Again	Elizabeth Strout','Literary Fiction','25','2018-03-18','Ira').
+libri(112','Royal Holiday','Jasmine Guillory','Romance','22','2019-11-23','Erica').
+libri(113','Brazen and the Beast','Sarah MacLean','Romance','14','2018-10-17','Vinnie').
+
+%Huazimi i librit(ID_Librit, ID_Lexuesit, Data, Afati, Data Kthimit, Punetori, Verejtje).
+huazimi i librit(102','100100100','2021-04-07','2 Jave','2021-04-30','Erica','Kthyer me vonese'.
+huazimi i librit(101','100100101','2021-12-21','1 Jave','2021-12-31','Vinnie','Kthyer me vonese').
+huazimi i librit(102','100100105','2021-11-10','3 Jave','2021-11-30','Helen','Kthyer para kohe').
+huazimi i librit(107','100100103','2021-10-21','2 Jave','2021-11-12','Erica','Kthyer me vonese').
+huazimi i librit(106','100100109','2021-12-09','1 Jave','2021-12-29','Helen','Demtuar').
+huazimi i librit(105','100100105','2021-11-29','4 Jave','2021-12-08','Erica','Kthyer para kohe').
+huazimi i librit(100','100100106','2021-10-06','1 Jave','2021-11-16','Erica','Kthyer me vonese').
+huazimi i librit(102','100100105','2021-10-29','3 Jave','2021-11-12','Vinnie','Kthyer para kohe').
+huazimi i librit(106','100100109','2021-11-04','2 Jave','2021-11-25','Vinnie','Kthyer me kohe').
+huazimi i librit(106','100100109','2021-09-07','2 Jave','2021-10-05','Erica','Kthyer me vonese').
+huazimi i librit(110','100100111','2021-08-06','4 Jave','2021-09-07','Vinnie','Demtuar').
+huazimi i librit(104','100100112','2021-10-07','1 Jave','2021-10-28','Erica','Kthyer me vonese').
+huazimi i librit(112','100100101','2021-12-16','3 Jave','2021-12-29','Erica','Kthyer para kohe').
+huazimi i librit(113','100100110','2021-11-16','1 Jave','2021-12-08','Vinnie','Kthyer me vonese').
+huazimi i librit(101','100100103','2021-12-16','3 Jave','2021-12-30','Helen','Kthyer para kohe').
+huazimi i librit(103','100100104','2021-11-16','4 Jave','2021-11-30','Erica','Kthyer para kohe').
+huazimi i librit(102','100100101','2021-12-09','1 Jave','2021-12-29','Vinnie','Kthyer me vonese').
+huazimi i librit(101','100100103','2021-11-16','3 Jave','2021-12-01','Helen','Kthyer para kohe').
+huazimi i librit(100','100100100','2021-12-10','2 Jave','2021-12-30','Erica','Kthyer me vonese').
+
+%Arkiva(ID, ID_Lexuesi, ID_Libri, Hera_Huazimit).
+arkiva(201','100100100','102','1').
+arkiva(202','100100101','101','1').
+arkiva(203','100100105','102','2').
+arkiva(204','100100103','107','1').
+arkiva(205','100100110','106','1').
+arkiva(206','100100105','105','1').
+arkiva(207','100100106','100','1').
+arkiva(208','100100108','102','1').
+arkiva(209','100100109','106','3').
+arkiva(210','100100107','109','1').
+arkiva(211','100100111','110','1').
+arkiva(212','100100112','104','1').
+arkiva(213','100100101','112','1').
+arkiva(214','100100110','113','1').
+arkiva(215','100100103','101','2').
+arkiva(216','100100104','103','1').
+arkiva(217','100100104','101','1').
+
+%Librat e Demtuar(ID_Librit, Verejtje, Data_e_Regjistrimit,  Punetori).
+librat e demtuar(102','Mungon Faqja','2021-12-07','Harkin').
+librat e demtuar(101','Vjetruar','2021-12-08','Ira').
+librat e demtuar(102','Nuk ka Kopje','2021-12-02','Erica').
+librat e demtuar(107','Demtuar','2021-11-09','Vinnie').
+librat e demtuar(106','Demtuar','2021-11-19','Helen').
+librat e demtuar(105','Vjetruar','2021-11-24','Harkin').
+librat e demtuar(100','Mungon Faqja','2021-11-19','Ira').
+librat e demtuar(102','Nuk ka Kopje','2021-12-15','Erica').
+librat e demtuar(110','Demtuar','2021-10-19','Ira').
+librat e demtuar(104','Vjetruar','2021-11-26','Erica').
+librat e demtuar(112','Demtuar','2021-10-15','Harkin').
+librat e demtuar(113','Mungon Faqja','2021-12-30','Ira').
+librat e demtuar(101','Nuk ka Kopje','2021-10-12','Erica').
+librat e demtuar(103','Mungon Faqja','2021-09-30','Vinnie').
+librat e demtuar(102','Demtuar','2021-10-15','Erica').
+librat e demtuar(101','Vjetruar','2021-12-15','Vinnie').
+librat e demtuar(100','Mungon Faqja','2021-12-12','Ira').
+librat e demtuar(100','Mungon Faqja','2021-10-13','Erica').
+
+%Punetori(ID, Emri, Mbiemri, Grada, Adresa, Tel, Email, Paga).
+punetori(200156110','Harkin','Diaz','Mbikqyres','659 E.Amherst Dr.','318-534-2967','harkindiaz@gmail.com','450').
+punetori(200156120','Penny ','Clifford','Drejtoreshe','261 Saxon St.','402-981-7067','penny19@gmail.com','650').
+punetori(200156130','Ira ','Sawyer','Asistente','467 Border Drive','769-200-6257','irasawyer@gmail.com','400').
+punetori(200156140','Erica','Allen ','Bibliotekar','8175 Mammoth Ave','803-698-4293','erica123@gmail.com','380').
+punetori(200156150','Kelly','Walker','Shefe nderrimi','704 Fawn St.','715-475-4443','kelly704@gmail.com','420').
+punetori(200156160','Oliver','Menard','Mirembajtse','290 Hillside St.','903-292-8388','oliver1@gmail.com','350').
+punetori(200156170','Vinnie','Roberts','Bibliotekar','291 Hillside St.','681-214-3518','vinnie99@gmail.com','380').
+punetori(200156180','Helen','Diaz','Bibliotekar','292 Hillside St.','702-326-5983','helendiaz@gmail.com','380').
+
+
+
+
+
+
+
+
+
+
+

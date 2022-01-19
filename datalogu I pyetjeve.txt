@@ -1,0 +1,82 @@
+$1..Listoni të gjithë lexuesit që janë nga qyteti i Prishtinës(rasti yne Buffalo).
+%Lexuesi(emri,mbiemri , qyteti).
+lexuesi(Freddi, Boagey, Buffalo).
+lexuesi(Ilene, Dowson, Buffalo).
+lexuesi(Emily, Mia, Buffalo).
+
+
+$2.Cilët lexues (Emrin dhe Mbiemrin e tyre) kanë huazuar te pakten dy
+libra gjate vitit 2020?
+%Lexuesi
+%Lexuesi(emri, mbiemri, lid) & Huazimi_i_librit(data_huazimit).
+lexuesi, huazimi_i_librit (Ilene, Dowson, 100100105, 2020).
+
+%perseitja e id 
+%Lexuesi(emri, mbiemri) & Huazimi_i_librit( lid, data_huazimit).
+lexuesi, huazimi_i_librit (Ines, Brushfield, 100100101, 2021).
+lexuesi, huazimi_i_librit (Ines, Brushfield, 100100101, 2021).
+lexuesi, huazimi_i_librit (Amber, Roseburgh, 100100103, 2021).
+lexuesi, huazimi_i_librit (Amber, Roseburgh, 100100103, 2021).
+lexuesi, huazimi_i_librit (Amber, Roseburgh, 100100103, 2021).
+lexuesi, huazimi_i_librit (John, Oliver, 100100109, 2021).
+lexuesi, huazimi_i_librit (John, Oliver, 100100109, 2021).
+lexuesi, huazimi_i_librit (John, Oliver, 100100109, 2021).
+
+
+%3..Listoni lexuesit te cilet e kane vonuar kthimin e librit ne afatin 15
+ditesh per vitin 2020 ose 2021.
+%Huazimi_i_librit(lid, data_huazimit , afati_java , verejtje).
+huazimi_i_librit(100100105 , 2020 , 2 , Kthyer me vonese).
+huazimi_i_librit(100100103 , 2021 , 2 , Kthyer me vonese).
+huazimi_i_librit(100100109 , 2021 , 2 , Kthyer me vonese).
+huazimi_i_librit(100100100 , 2021 , 2 , Kthyer me vonese).
+
+%Vetem ID e Lexuesve:
+%Huazimi_i_librit (lid).
+huazimi_i_librit (100100105).
+huazimi_i_librit (100100103).
+huazimi_i_librit (100100109).
+huazimi_i_librit (100100100).
+
+%Vetem emrat e lexuesve :
+%Lexuesi(emri, mbiemri) 
+lexuesi(Barbara, MacCaffery).
+lexuesi(Amber, Roseburgh).
+lexuesi(Ines, Brushfield).
+lexuesi(John, Oliver).
+
+
+%4.Listoni ID-të dhe titullin e librave qe ne vitin 2019 ose 2020 jane
+huazur se paku nje here kurse ne vitin 2021 asnjehere.
+%Data_huazimit ( id_libri , lid , data_huazimit, titulli).
+data_huazimit (102, 100100105, 2020, Don Quixote).
+data_huazimit (102, 100100105, 2020, Don Quixote).
+data_huazimit (102, 100100105, 2020, Don Quixote).
+data_huazimit (102, 100100105, 2020, Don Quixote).
+data_huazimit (105, 100100105, 2019, Little Women).
+
+%Librat qe nuk jane huazuar asnjehere
+%huazimi_i_librit(id_libri, titull).
+huazimi_i_librit(108, The Adventures of Sherlock Holmes).
+huazimi_i_librit(111, Olive,Again).
+huazimi_i_librit(109, !00 Years of Solitude).
+
+%5.Listoni top 5 lexuesit me numrin me te madh të huazimeve në 3
+muajt e fundit. Lista të paraqes të dhënat e lexusit duke përfshirë
+emrin e mbiemrin si dhe numrin e huazimeve që ka realizuar
+%Huazimi_i_librit( lid , emri, mbiemri, data_huazimit).
+huazimi_i_librit ( 100100103 ,Amber, Roseburgt , 20/10/2021).
+huazimi_i_librit ( 100100103 ,Amber, Roseburgt , 20/10/2021).
+huazimi_i_librit ( 100100103 ,Amber, Roseburgt , 20/10/2021).
+huazimi_i_librit ( 100100109 ,John, Oliver, 30/11/2021).
+huazimi_i_librit ( 100100109 ,John, Oliver, 20/11/2021).
+huazimi_i_librit ( 100100101 ,Ines, Brushfiel, 02/12/2021).
+huazimi_i_librit ( 100100110 ,Ann, Poppy , 25/11/2021).
+huazimi_i_librit ( 100100100 ,Barbara, MacCaffery , 01/12/2021).
+
+
+
+
+
+
+
